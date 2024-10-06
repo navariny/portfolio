@@ -1,0 +1,74 @@
+/* Style global */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Variaveis de paleta de cor e font */
+
+:root {
+    --color-01: #ffb74d;
+    --color-02: #fff3d4;
+    --color-03: #ffcf71;
+    --color-04: #ef7907;
+    --color-05: #441c06;
+}
+
+/* Ajusta o tamanho da imagem e garante que ela cubra toda a área disponível */
+#img-header img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Cobre o espaço sem distorcer a imagem */
+}
+
+/* Centraliza o conteúdo de texto (h1 e p) sobre a imagem */
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+hgroup {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color-02); /* Cor do texto sobre a imagem */
+}
+
+/* Estilo para o título e o parágrafo */
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Estilo para o botão */
+.btn {
+    background-color: var(--color-02);
+    color: var(--color-05);
+    border: none;
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.8s ease;
+}
+
+/* Efeito hover ao passar o mouse sobre o botão */
+.btn:hover {
+    background-color: var(--color-04); /* Tom um pouco mais escuro de cinza para o hover */
+}
+
+/* Estilo da área de infos */
+#infos {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, var(--color-03), var(--color-04))
+}
