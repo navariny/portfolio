@@ -1,4 +1,4 @@
-/* Definindo altura e margin/padding para html e body */
+/* Definindo altura e margin/padding para body */
 body{
     height: 100%;
     margin: 0;
@@ -46,4 +46,36 @@ body{
 .nav-item a:hover{
     color: var(--color04);
     text-decoration: underline;
+}
+
+/* Estilizando a SECTION */
+
+#sobre-mim{
+    width: 100%;
+    height: 100vh;
+    color: var(--color05);
+    font-size: 1.2em;
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section img {
+    max-width: 350px; /* Ajuste o tamanho máximo da imagem */
+    max-height: 80%; /* Limita a altura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área disponível */
+}
+
+/* Estilizando o texto */
+#sobre-mim h1{
+    font-family: var(--fonte_principal);
+    margin-bottom: 50px;
+}
+
+#sobre-mim p{
+    font-family: var(--fonte_secundaria);
 }
