@@ -47,3 +47,17 @@ html, body {
     color: var(--color04);
     text-decoration: underline;
 }
+
+/* Estilizando SECTION */
+
+#sobre-mim{
+    color: var(--color05);
+}
+
+.container h1{
+    font-family: var(--fonte_principal);
+}
+
+.container p{
+    font-family: var(--fonte_secundaria);
+}
