@@ -40,5 +40,5 @@ Este portfólio foi desenvolvido com o objetivo de exibir projetos pessoais, exp
 
 ## Contato
 Caso tenha interesse em entrar em contato comigo, você pode me encontrar pelas redes sociais ou enviar um e-mail:
-- [LinkedIn]((https://www.linkedin.com/in/luiz-navariny/))
+- [LinkedIn](https://www.linkedin.com/in/luiz-navariny/)
 - E-mail: luiznavariny01@icloud.com
